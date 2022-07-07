@@ -14,7 +14,7 @@ image = gr.inputs.Image(shape=(100,100))
 label = gr.outputs.Label()
 title = "Sign Language Digit Classifier"
 description = "A sign language digit classifier trained on a Kaggle dataset with fastai. Created as a demo for fast.ai Part 1 v5 (2022)."
-examples = ['7.jpg','8.jpg','OK.jpg']
+examples="IMG_4590.JPG", "IMG_4883.JPG", "IMG_5495.JPG"
 interpretation='default'
 enable_queue=True
 
